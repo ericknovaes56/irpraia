@@ -10,7 +10,7 @@ export default function CityReco({ cidades }) {
 
 
         try {
-            const response = await fetch("http://localhost:3000/cidade/" + cidade);
+            const response = await fetch("https://serverirpraia.onrender.com/cidade/" + cidade);
             if (!response.ok) {
                 throw new Error("Erro ao buscar dados do clima");
             }

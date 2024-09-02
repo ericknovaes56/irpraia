@@ -20,7 +20,7 @@ export default function Home(){
 
             setLoad(true)
 
-            const response = await fetch("http://localhost:3000/estados/"+estado)
+            const response = await fetch("https://serverirpraia.onrender.com/estados/"+estado)
             const data = await response.json()
 
             if (response.ok){
