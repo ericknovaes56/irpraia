@@ -1,0 +1,17 @@
+:root{
+  --color-gray:rgba(185, 185, 185, 0.877);
+
+  --color-60: #ddd;
+  --color-10:white;
+
+}
+
+body{
+  background-color: var(--color-60);
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

@@ -1,0 +1,81 @@
+main .search{
+  width: 100%;
+  justify-content: center;
+  display: flex;
+  padding: 10px;
+  gap: 10px;
+  background-color: white;
+  height: 80px;
+  align-items: center;
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.11);
+  border-radius: 0px 0px 20px 20px;
+}
+main .search input{
+  height: 50px;
+  border-radius: 999px;
+  border: 2px solid var(--color-gray);
+  background-color: transparent;
+  outline: none;
+  padding: 4px 20px;
+  width: 100%;
+  max-width: 300px;
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.11);
+}
+main .search button{
+  height: 50px;
+  border-radius: 999px;
+  border: 2px solid var(--color-gray);
+  background-color: transparent;
+  outline: none;
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.11);
+  width: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  cursor: pointer;
+}
+main .recomendados{
+  display: flex;
+  padding: 30px 30px;
+  gap: 10px;
+  flex-wrap: wrap;
+  
+}
+main .city{
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid var(--color-gray);
+  display: flex;
+  background-color: var(--color-10);
+  flex-direction: column;
+  flex: none;
+  gap: 10px;
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.11);
+  transition: all .3s ease;
+  min-width: 300px;
+  flex: 1;
+  border-left: 3px solid rgb(180, 19, 19);
+}
+main .city.bom-para-praia{
+  border-left: 3px solid rgb(25, 180, 19);
+}
+main .city:hover{
+  transform: scale(1.03);
+}
+main .city h2{
+  white-space: nowrap;
+  flex: none
+;
+}
+main .city .infos{
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+}
+main .city .infos span{
+  padding: 10px;
+  border-radius: 10px;
+
+  border: 2px solid var(--color-gray);
+}
